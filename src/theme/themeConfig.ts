@@ -18,6 +18,8 @@ const theme: ThemeConfig = {
       q_red: '#cf2e2e',
       q_green: '#00d084',
     },
+    neumorphismShadow:
+      '-5px -5px 10px rgba(255, 255, 255, 0.8),5px 5px 10px rgba(0, 0, 0, 0.1)',
   },
 } as any;
 
