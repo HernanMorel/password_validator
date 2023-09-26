@@ -1,0 +1,69 @@
+/*!specificity overrides are in place*/
+
+/*/ Qventus App Styles */
+.firstCardStyle {
+  background: linear-gradient(to left, transparent, var(--q_dark_purple))
+    var(--q_orange);
+}
+.firstTitleStyle {
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 700 !important;
+}
+.firstInputStyle {
+  font-family: 'Lato', sans-serif !important;
+}
+.firstDescriptionStyle {
+  font-family: 'Lato', sans-serif !important;
+}
+/* Cerner App Styles */
+.secondCardStyle {
+  background: linear-gradient(to left, transparent, var(--q_dark_purple))
+    var(--q_mid_blue);
+}
+.secondTitleStyle {
+  font-family: 'Public Sans', sans-serif !important;
+  font-weight: 700 !important;
+}
+.secondInputStyle {
+  font-family: 'Mulish', sans-serif !important;
+  border-radius: 18px;
+}
+.secondDescriptionStyle {
+  font-family: 'Public Sans', sans-serif !important;
+  border-radius: 18px;
+  font-weight: 400;
+}
+/* Allscripts App Styles */
+.thirdCardStyle {
+  background: linear-gradient(to left, transparent, var(--q_dark_purple))
+    var(--q_green);
+}
+.thirdTitleStyle {
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: 700 !important;
+}
+.thirdInputStyle {
+  font-family: 'Nunito', sans-serif !important;
+}
+.thirdDescriptionStyle {
+  font-family: 'Nunito', sans-serif !important;
+
+  font-weight: 400;
+}
+/* Epic App Styles */
+.fourthCardStyle {
+  background: linear-gradient(to left, transparent, var(--q_dark_purple))
+    var(--q_red);
+}
+.fourthTitleStyle {
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 700 !important;
+}
+.fourthInputStyle {
+  font-family: 'Nunito', sans-serif !important;
+  border-radius: 18px;
+}
+.fourthDescriptionStyle {
+  font-family: 'Nunito', sans-serif !important;
+  border-radius: 18px;
+}

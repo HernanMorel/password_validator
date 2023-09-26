@@ -1,0 +1,24 @@
+/* base styles for all app cards */
+.card {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  box-shadow: var(--box-shadow);
+}
+
+.title {
+  /* specificity override */
+  color: var(--q_white) !important;
+}
+
+.input {
+  padding-bottom: 5px;
+}
+
+.description {
+  padding: 12px;
+  margin-top: 8px;
+}
