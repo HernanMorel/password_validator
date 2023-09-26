@@ -25,13 +25,8 @@ const InputCard: React.FC<InputCardProps> = ({
   passwordReqs,
   activeCardIndex,
 }) => {
-  const {
-    password,
-    isValid,
-    handlePasswordChange,
-    passwordMessage,
-    descriptionAlertType,
-  } = useInputCard({ passwordReqs, activeCardIndex });
+  const { password, isValid, handlePasswordChange, passwordMessage } =
+    useInputCard({ passwordReqs, activeCardIndex });
 
   const mergedStyles = {
     cardStyle: `${classes.card} ${dynamicStyles.cardStyle || ''}`,
