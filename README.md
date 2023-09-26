@@ -22,7 +22,7 @@ During the development phase, an issue emerged - a slight but noticeable flicker
 
 ## Deployment
 
-[This is an external link to the app]()
+[This is an external link to the app](https://super-awesome-password-validator.netlify.app)
 
 # Clone this repository
 
