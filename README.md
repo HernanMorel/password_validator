@@ -50,7 +50,7 @@ $ git remote remove origin
 
 $ npm install
 
-#or
+# or
 
 $ yarn install
 
