@@ -30,16 +30,10 @@ export const useInputCard = ({
       ? 'Password requirement met. Thank you!'
       : 'Please fulfill the password requirement.';
 
-  // dynamic alert alert type shown on the message box underneath the input field
-  const descriptionAlertType =
-    (activeCardIndex !== 3 && isValid) || (activeCardIndex === 3 && !isValid)
-      ? 'success'
-      : 'error';
   return {
     password,
     isValid,
     handlePasswordChange,
     passwordMessage,
-    descriptionAlertType,
   };
 };

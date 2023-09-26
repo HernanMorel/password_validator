@@ -59,7 +59,13 @@ const InputCard: React.FC<InputCardProps> = ({
         />
         <Alert
           message={description}
-          type={descriptionAlertType}
+          // dynamic alert alert type shown on the message box underneath the input field
+          type={
+            (activeCardIndex !== 3 && isValid) ||
+            (activeCardIndex === 3 && !isValid)
+              ? 'success'
+              : 'error'
+          }
           className={mergedStyles.descriptionStyle}
           showIcon
           description={passwordMessage}
